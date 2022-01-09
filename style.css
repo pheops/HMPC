@@ -1,35 +1,4 @@
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background: rgb(200,200,200);
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-* {
-/*  -webkit-box-sizing: border-box;
-  box-sizing: border-box;*/
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: transparent;
-  -webkit-touch-callout: none;
-}
-
-
-
-
-
-/*html, body {
+html, body {
 background-color: #000000;
   padding: 0;
   width :360px;
@@ -45,13 +14,13 @@ canvas {
    margin: auto;
   margin-left: 0px;
 }
-*/
+
 
 button {
  
   background-color: #da4e24;
   border-radius:7px;
- /* border:1px solid #da4e24;*/
+  border:1px solid #da4e24;
   display:inline-block;
   cursor:pointer;
   color:000000;
